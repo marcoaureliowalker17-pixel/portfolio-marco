@@ -1,0 +1,61 @@
+MARCO PLAY — v1.2
+Alteração 2 — Incluído gameplay do canal próprio: AQUELE TRIO CRIMINOSO! ft. Piople e Cafeína.
+Arquivo MP4 reproduzido diretamente no site, nova miniatura, filtro Gameplays e página de visualização.
+
+MARCO PLAY — v1.1
+Alteração 1 — Página inicial: removidos o logotipo nome anterior do site e o botão superior "Disponível para projetos". Menu, busca e avatar foram mantidos. As demais páginas e funções permanecem como na v1.0.
+
+MARCO PLAY — SITE PRÓPRIO DE PORTFÓLIO
+
+PRÉVIA LOCAL
+1. Extraia o ZIP inteiro para uma pasta.
+2. Abra index.html no Chrome ou Edge.
+3. A navegação, filtros e miniaturas funcionam localmente.
+4. A reprodução dos vídeos do Instagram e YouTube exige internet e que as plataformas permitam o embed.
+
+ARQUIVOS IMPORTANTES
+- index.html: página inicial estilo canal do YouTube.
+- assistir.html: página de cada projeto, com player.
+- sobre.html: informações, serviços, contato e comentários cenográficos.
+- js/site.js: configurações, links e comportamento do site.
+- css/style.css: estilos e layout.
+- assets/: banner, fotografia e miniaturas locais (inclusos).
+
+PERSONALIZAR SEUS CONTATOS
+Abra js/site.js com Bloco de Notas ou editor de texto e encontre:
+const CONFIG = { instagram:'', behance:'', email:'', whatsapp:'' };
+Preencha com suas URLs pessoais. O WhatsApp usa DDI + DDD + número, sem símbolos.
+Os botões de contato serão ativados automaticamente. Não inventamos endereços nem telefones.
+
+SEUS VÍDEOS
+YouTube: https://www.youtube.com/watch?v=YpMTyFLAQr8
+Instagram: https://www.instagram.com/p/DehSM8RNq4f/
+Esses links já estão configurados em js/site.js. Se trocar o vídeo, atualize o link
+em PROJECTS e o endereço do iframe em initWatch.
+
+OBSERVAÇÃO SOBRE O VÍDEO ORIGINAL
+O MP4 grande do projeto Revenda de Crédito não foi colocado no ZIP.
+O site exibe a publicação pública do Instagram e inclui um link alternativo.
+Se quiser hospedar um MP4 seu diretamente, será necessário adicionar um player
+HTML5 e colocar o arquivo em uma hospedagem que permita vídeos desse tamanho.
+
+PUBLICAR GRATUITAMENTE
+Opção simples: hospede esta pasta como site estático no Netlify Drop.
+Outra opção: envie os arquivos para um repositório e ative GitHub Pages.
+Não é necessário banco de dados, Electron ou servidor de aplicação.
+
+COMENTÁRIOS
+A seção de comentários em sobre.html é cenográfica e identifica claramente os
+comentários fictícios, incluindo a referência ao diretor Zack Snyder como paródia.
+Nenhum depoimento foi apresentado como se fosse uma recomendação real.
+
+PALETA: #0F0F0F (fundo), #F1F1F1 (texto), #F32643 (destaque)
+
+Arquivo criado para personalização e publicação pelo usuário.
+
+GAMEPLAY LOCAL — ADICIONADO NA v1.2
+Arquivo: videos/aquele-trio-criminoso.mp4
+Miniatura: assets/trio-criminoso.webp
+A aba Gameplays e o filtro Gameplays encontram esse trabalho.
+O vídeo está incluído no ZIP e não precisa de internet para tocar quando o site é aberto localmente.
+Como o arquivo é grande (~89 MB), upload e download do site serão maiores.
