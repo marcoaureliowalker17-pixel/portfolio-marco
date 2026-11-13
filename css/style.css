@@ -26,3 +26,6 @@
 .credential-action{display:inline-flex;flex:none;align-items:center;justify-content:center;gap:10px;padding:12px 17px;border-radius:999px;background:#eee;color:#171717;font-size:13px;font-weight:750;white-space:nowrap;transition:background .2s}
 .credential-action:hover{background:#ffb3bb;color:#141414}
 @media(max-width:720px){.certifications{padding:36px 0}.credential-card{flex-wrap:wrap;align-items:flex-start;padding:19px;gap:15px}.credential-emblem{width:58px;height:58px;padding:13px}.credential-details{flex-basis:calc(100% - 76px)}.credential-details h3{font-size:19px}.credential-action{width:100%;text-align:center}}
+
+/* Nome completo da formação na seção de certificados */
+.credential-course-title{color:#fff;font-weight:800;letter-spacing:-.035em;line-height:1.25}
