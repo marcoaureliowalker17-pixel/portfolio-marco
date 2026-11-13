@@ -9,3 +9,20 @@
 .player-container.local .player-fallback{background:#151515;margin:0;padding:12px 18px;font-size:12px;color:#999}
 
 .player-container.external{aspect-ratio:auto;min-height:0;display:flex;flex-direction:column;align-items:stretch;padding:0;background:#000}.external-poster{position:relative;display:block;width:100%}.external-poster img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;background:#000}.external-overlay{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;background:linear-gradient(180deg,rgba(0,0,0,.18),rgba(0,0,0,.52));transition:background .2s}.external-poster:hover .external-overlay{background:linear-gradient(180deg,rgba(0,0,0,.14),rgba(0,0,0,.62))}.external-play{display:inline-flex;align-items:center;justify-content:center;width:84px;height:84px;border-radius:50%;background:rgba(0,0,0,.72);color:#fff;font-size:34px;box-shadow:0 12px 30px rgba(0,0,0,.35)}.external-text{display:inline-flex;padding:9px 16px;border-radius:999px;background:rgba(15,15,15,.82);font-weight:700;color:#fff}
+
+/* Seção Formação e Certificações — integrada à página Sobre */
+.certifications{padding:54px 0 42px;border-top:1px solid #292929;scroll-margin-top:85px}
+.certification-heading{max-width:720px;margin:0 0 25px}
+.certification-heading h2{font-size:clamp(28px,3vw,40px);letter-spacing:-.05em;margin:10px 0}
+.certification-heading p{font-size:14px;line-height:1.65;color:#bdbdbd}
+.credential-card{display:flex;align-items:center;gap:22px;padding:25px 27px;border:1px solid #393039;border-radius:16px;background:linear-gradient(125deg,#24161b,#171717 55%,#141414);box-shadow:0 12px 35px #0002}
+.credential-emblem{flex:none;display:flex;justify-content:center;align-items:center;width:76px;height:76px;padding:18px;border-radius:16px;background:linear-gradient(145deg,#5b1c29,#30171e);color:#ff8795}
+.credential-emblem svg{height:100%;width:100%}
+.credential-details{flex:1;min-width:0}
+.credential-type{font-size:10px;font-weight:800;letter-spacing:2px;color:#ff697d}
+.credential-details h3{font-size:21px;letter-spacing:-.035em;margin:5px 0 8px}
+.credential-details p{font-size:13px;max-width:660px;line-height:1.6;color:#ccc;margin:0 0 9px}
+.credential-provider{font-size:11px;color:#a8a8a8}
+.credential-action{display:inline-flex;flex:none;align-items:center;justify-content:center;gap:10px;padding:12px 17px;border-radius:999px;background:#eee;color:#171717;font-size:13px;font-weight:750;white-space:nowrap;transition:background .2s}
+.credential-action:hover{background:#ffb3bb;color:#141414}
+@media(max-width:720px){.certifications{padding:36px 0}.credential-card{flex-wrap:wrap;align-items:flex-start;padding:19px;gap:15px}.credential-emblem{width:58px;height:58px;padding:13px}.credential-details{flex-basis:calc(100% - 76px)}.credential-details h3{font-size:19px}.credential-action{width:100%;text-align:center}}
