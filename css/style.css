@@ -29,3 +29,10 @@
 
 /* Nome completo da formação na seção de certificados */
 .credential-course-title{color:#fff;font-weight:800;letter-spacing:-.035em;line-height:1.25}
+
+/* Cartões de formação e dados verificáveis */
+.certifications .credential-card + .credential-card{margin-top:18px}
+.credential-verification{margin-top:12px;color:#bbb;font-size:12px}
+.credential-verification summary{cursor:pointer;color:#ff9baa;font-weight:650;list-style-position:inside}
+.credential-verification p{margin:8px 0 0;line-height:1.7;overflow-wrap:anywhere}
+.credential-verification code{font-size:11px;overflow-wrap:anywhere;color:#eee}
